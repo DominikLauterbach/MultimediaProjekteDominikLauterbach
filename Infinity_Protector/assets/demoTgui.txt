@@ -1,0 +1,17 @@
+Button.StartGameBtn {
+    Position = (300, 473.333);
+    Size = (210, 58.6667);
+    Text = "Start Game";
+    TextSize = 20;
+
+    Renderer {
+        TextColor = rgb(100, 100, 100);
+        Texture = "themes/Black.png" Part(50, 22, 45, 50) Middle(10, 0) Smooth;
+        TextureDisabled = None;
+        TextureDown = "themes/Black.png" Part(0, 74, 45, 50) Middle(10, 0) Smooth;
+        TextureDownFocused = None;
+        TextureDownHover = None;
+        TextureFocused = None;
+        TextureHover = "themes/Black.png" Part(0, 126, 45, 50) Middle(10, 0) Smooth;
+    }
+}
